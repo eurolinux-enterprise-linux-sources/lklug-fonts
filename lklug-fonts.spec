@@ -7,7 +7,7 @@ Name:	%{fontname}-fonts
 # update versions on file changes. When in doubt use the timestamp of the most
 # recent file as version.
 Version:	0.6
-Release:	10.%{cvsdate}cvs%{?dist}
+Release:	9.%{cvsdate}cvs%{?dist}
 Summary:	Fonts for Sinhala language
 Group:	User Interface/X
 License:	GPLv2
@@ -54,9 +54,6 @@ ln -s %{_fontconfig_templatedir}/%{fontconf} \
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.6-10.20090803cvs
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.6-9.20090803cvs
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
